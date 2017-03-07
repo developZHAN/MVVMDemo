@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TYPartIVC.h
 //  TYMVVMDemo
 //
 //  Created by 詹瞻 on 2017/3/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TYPartIVC : UIViewController
 
 @end
-

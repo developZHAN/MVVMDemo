@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8853DDC01E6EDE2D00790A7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8853DDBF1E6EDE2D00790A7C /* main.m */; };
-		8853DDC31E6EDE2D00790A7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8853DDC21E6EDE2D00790A7C /* AppDelegate.m */; };
-		8853DDC61E6EDE2D00790A7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8853DDC51E6EDE2D00790A7C /* ViewController.m */; };
-		8853DDC91E6EDE2D00790A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8853DDC71E6EDE2D00790A7C /* Main.storyboard */; };
 		8853DDCB1E6EDE2D00790A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8853DDCA1E6EDE2D00790A7C /* Assets.xcassets */; };
 		8853DDCE1E6EDE2D00790A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8853DDCC1E6EDE2D00790A7C /* LaunchScreen.storyboard */; };
+		8853DDDC1E6EDF9300790A7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8853DDDA1E6EDF9300790A7C /* AppDelegate.m */; };
+		8853DDED1E6EE35D00790A7C /* TYPartIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8853DDEC1E6EE35D00790A7C /* TYPartIVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8853DDBB1E6EDE2D00790A7C /* TYMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8853DDBF1E6EDE2D00790A7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8853DDC11E6EDE2D00790A7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8853DDC21E6EDE2D00790A7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8853DDC41E6EDE2D00790A7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8853DDC51E6EDE2D00790A7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8853DDC81E6EDE2D00790A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8853DDCA1E6EDE2D00790A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8853DDCD1E6EDE2D00790A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8853DDCF1E6EDE2D00790A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8853DDD51E6EDEBC00790A7C /* TY_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TY_Prefix.pch; sourceTree = "<group>"; };
+		8853DDD91E6EDF9300790A7C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8853DDDA1E6EDF9300790A7C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8853DDDE1E6EE02000790A7C /* TYAppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAppMacros.h; sourceTree = "<group>"; };
+		8853DDEB1E6EE35D00790A7C /* TYPartIVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPartIVC.h; sourceTree = "<group>"; };
+		8853DDEC1E6EE35D00790A7C /* TYPartIVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPartIVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +58,7 @@
 		8853DDBD1E6EDE2D00790A7C /* TYMVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8853DDC11E6EDE2D00790A7C /* AppDelegate.h */,
-				8853DDC21E6EDE2D00790A7C /* AppDelegate.m */,
-				8853DDC41E6EDE2D00790A7C /* ViewController.h */,
-				8853DDC51E6EDE2D00790A7C /* ViewController.m */,
-				8853DDC71E6EDE2D00790A7C /* Main.storyboard */,
-				8853DDCA1E6EDE2D00790A7C /* Assets.xcassets */,
-				8853DDCC1E6EDE2D00790A7C /* LaunchScreen.storyboard */,
-				8853DDCF1E6EDE2D00790A7C /* Info.plist */,
+				8853DDD61E6EDF9300790A7C /* Class */,
 				8853DDBE1E6EDE2D00790A7C /* Supporting Files */,
 			);
 			path = TYMVVMDemo;
@@ -74,9 +67,145 @@
 		8853DDBE1E6EDE2D00790A7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8853DDCC1E6EDE2D00790A7C /* LaunchScreen.storyboard */,
+				8853DDCA1E6EDE2D00790A7C /* Assets.xcassets */,
+				8853DDD51E6EDEBC00790A7C /* TY_Prefix.pch */,
+				8853DDCF1E6EDE2D00790A7C /* Info.plist */,
 				8853DDBF1E6EDE2D00790A7C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8853DDD61E6EDF9300790A7C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8853DDD71E6EDF9300790A7C /* Lib */,
+				8853DDDB1E6EDF9300790A7C /* Tool */,
+				8853DDE01E6EE2DF00790A7C /* PartI */,
+				8853DDE61E6EE2F500790A7C /* PartII */,
+				8853DDD81E6EDF9300790A7C /* Others */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		8853DDD71E6EDF9300790A7C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		8853DDD81E6EDF9300790A7C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				8853DDD91E6EDF9300790A7C /* AppDelegate.h */,
+				8853DDDA1E6EDF9300790A7C /* AppDelegate.m */,
+				8853DDDD1E6EE02000790A7C /* Constant */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8853DDDB1E6EDF9300790A7C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8853DDDD1E6EE02000790A7C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				8853DDDE1E6EE02000790A7C /* TYAppMacros.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		8853DDE01E6EE2DF00790A7C /* PartI */ = {
+			isa = PBXGroup;
+			children = (
+				8853DDE21E6EE2DF00790A7C /* Model */,
+				8853DDE31E6EE2DF00790A7C /* View */,
+				8853DDE51E6EE2DF00790A7C /* ViewModel */,
+				8853DDE41E6EE2DF00790A7C /* ViewManger */,
+				8853DDE11E6EE2DF00790A7C /* Controller */,
+			);
+			path = PartI;
+			sourceTree = "<group>";
+		};
+		8853DDE11E6EE2DF00790A7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8853DDEB1E6EE35D00790A7C /* TYPartIVC.h */,
+				8853DDEC1E6EE35D00790A7C /* TYPartIVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8853DDE21E6EE2DF00790A7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8853DDE31E6EE2DF00790A7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8853DDE41E6EE2DF00790A7C /* ViewManger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewManger;
+			sourceTree = "<group>";
+		};
+		8853DDE51E6EE2DF00790A7C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8853DDE61E6EE2F500790A7C /* PartII */ = {
+			isa = PBXGroup;
+			children = (
+				8853DDE71E6EE2F500790A7C /* Controller */,
+				8853DDE81E6EE2F500790A7C /* Model */,
+				8853DDE91E6EE2F500790A7C /* View */,
+				8853DDEA1E6EE2F500790A7C /* ViewModel */,
+			);
+			path = PartII;
+			sourceTree = "<group>";
+		};
+		8853DDE71E6EE2F500790A7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8853DDE81E6EE2F500790A7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8853DDE91E6EE2F500790A7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8853DDEA1E6EE2F500790A7C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +269,6 @@
 			files = (
 				8853DDCE1E6EDE2D00790A7C /* LaunchScreen.storyboard in Resources */,
 				8853DDCB1E6EDE2D00790A7C /* Assets.xcassets in Resources */,
-				8853DDC91E6EDE2D00790A7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,23 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8853DDC61E6EDE2D00790A7C /* ViewController.m in Sources */,
-				8853DDC31E6EDE2D00790A7C /* AppDelegate.m in Sources */,
+				8853DDDC1E6EDF9300790A7C /* AppDelegate.m in Sources */,
 				8853DDC01E6EDE2D00790A7C /* main.m in Sources */,
+				8853DDED1E6EE35D00790A7C /* TYPartIVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8853DDC71E6EDE2D00790A7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8853DDC81E6EDE2D00790A7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8853DDCC1E6EDE2D00790A7C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,7 +392,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7GPHW87L24;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TYMVVMDemo/TY_Prefix.pch";
 				INFOPLIST_FILE = TYMVVMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyrone.TYMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,7 +406,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7GPHW87L24;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TYMVVMDemo/TY_Prefix.pch";
 				INFOPLIST_FILE = TYMVVMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tyrone.TYMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
