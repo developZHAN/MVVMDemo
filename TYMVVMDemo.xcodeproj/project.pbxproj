@@ -12,6 +12,16 @@
 		8853DDCE1E6EDE2D00790A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8853DDCC1E6EDE2D00790A7C /* LaunchScreen.storyboard */; };
 		8853DDDC1E6EDF9300790A7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8853DDDA1E6EDF9300790A7C /* AppDelegate.m */; };
 		8853DDED1E6EE35D00790A7C /* TYPartIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8853DDEC1E6EE35D00790A7C /* TYPartIVC.m */; };
+		885D711A1E701DBF001E68C8 /* TYPartIViewManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D71191E701DBF001E68C8 /* TYPartIViewManger.m */; };
+		885D711E1E703393001E68C8 /* TYPartIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D711D1E703393001E68C8 /* TYPartIModel.m */; };
+		888A71F11E6FA1B100310847 /* TYPartIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A71F01E6FA1B100310847 /* TYPartIView.m */; };
+		888A71FB1E6FAE9400310847 /* NSString+TYString.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A71F41E6FAE9400310847 /* NSString+TYString.m */; };
+		888A71FC1E6FAE9400310847 /* UIColor+TYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A71F61E6FAE9400310847 /* UIColor+TYColor.m */; };
+		888A71FD1E6FAE9400310847 /* UIImage+TYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A71F81E6FAE9400310847 /* UIImage+TYImage.m */; };
+		888A71FE1E6FAE9400310847 /* UIView+TYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A71FA1E6FAE9400310847 /* UIView+TYFrame.m */; };
+		888A72021E6FB6F600310847 /* TYUICreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A72011E6FB6F600310847 /* TYUICreator.m */; };
+		888A72231E70002E00310847 /* UIView+TYEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A72221E70002E00310847 /* UIView+TYEvents.m */; };
+		888A72271E700E9200310847 /* UIView+TYConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A72261E700E9200310847 /* UIView+TYConfigure.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,31 @@
 		8853DDDE1E6EE02000790A7C /* TYAppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAppMacros.h; sourceTree = "<group>"; };
 		8853DDEB1E6EE35D00790A7C /* TYPartIVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPartIVC.h; sourceTree = "<group>"; };
 		8853DDEC1E6EE35D00790A7C /* TYPartIVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPartIVC.m; sourceTree = "<group>"; };
+		885D71181E701DBF001E68C8 /* TYPartIViewManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPartIViewManger.h; sourceTree = "<group>"; };
+		885D71191E701DBF001E68C8 /* TYPartIViewManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPartIViewManger.m; sourceTree = "<group>"; };
+		885D711B1E701E1D001E68C8 /* TYViewMangerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewMangerProtocol.h; sourceTree = "<group>"; };
+		885D711C1E703393001E68C8 /* TYPartIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPartIModel.h; sourceTree = "<group>"; };
+		885D711D1E703393001E68C8 /* TYPartIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPartIModel.m; sourceTree = "<group>"; };
+		888A71EF1E6FA1B100310847 /* TYPartIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPartIView.h; sourceTree = "<group>"; };
+		888A71F01E6FA1B100310847 /* TYPartIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPartIView.m; sourceTree = "<group>"; };
+		888A71F31E6FAE9400310847 /* NSString+TYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TYString.h"; sourceTree = "<group>"; };
+		888A71F41E6FAE9400310847 /* NSString+TYString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TYString.m"; sourceTree = "<group>"; };
+		888A71F51E6FAE9400310847 /* UIColor+TYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TYColor.h"; sourceTree = "<group>"; };
+		888A71F61E6FAE9400310847 /* UIColor+TYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TYColor.m"; sourceTree = "<group>"; };
+		888A71F71E6FAE9400310847 /* UIImage+TYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TYImage.h"; sourceTree = "<group>"; };
+		888A71F81E6FAE9400310847 /* UIImage+TYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TYImage.m"; sourceTree = "<group>"; };
+		888A71F91E6FAE9400310847 /* UIView+TYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYFrame.h"; sourceTree = "<group>"; };
+		888A71FA1E6FAE9400310847 /* UIView+TYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYFrame.m"; sourceTree = "<group>"; };
+		888A72001E6FB6F600310847 /* TYUICreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYUICreator.h; sourceTree = "<group>"; };
+		888A72011E6FB6F600310847 /* TYUICreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYUICreator.m; sourceTree = "<group>"; };
+		888A72031E6FB70E00310847 /* TYToolMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYToolMacrocDefine.h; sourceTree = "<group>"; };
+		888A72201E6FFFE100310847 /* TYMVVMKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMVVMKit.h; sourceTree = "<group>"; };
+		888A72211E70002E00310847 /* UIView+TYEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYEvents.h"; sourceTree = "<group>"; };
+		888A72221E70002E00310847 /* UIView+TYEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYEvents.m"; sourceTree = "<group>"; };
+		888A72241E7001EC00310847 /* TYViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewProtocol.h; sourceTree = "<group>"; };
+		888A72251E700E9200310847 /* UIView+TYConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYConfigure.h"; sourceTree = "<group>"; };
+		888A72261E700E9200310847 /* UIView+TYConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYConfigure.m"; sourceTree = "<group>"; };
+		888A72281E70159100310847 /* TYViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewModelProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +136,8 @@
 				8853DDD91E6EDF9300790A7C /* AppDelegate.h */,
 				8853DDDA1E6EDF9300790A7C /* AppDelegate.m */,
 				8853DDDD1E6EE02000790A7C /* Constant */,
+				888A71F21E6FAE9400310847 /* Category */,
+				888A721E1E6FFFC200310847 /* TYMVVMKit */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -108,6 +145,8 @@
 		8853DDDB1E6EDF9300790A7C /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				888A72031E6FB70E00310847 /* TYToolMacrocDefine.h */,
+				888A71FF1E6FB6F600310847 /* UICreator */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -144,6 +183,8 @@
 		8853DDE21E6EE2DF00790A7C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				885D711C1E703393001E68C8 /* TYPartIModel.h */,
+				885D711D1E703393001E68C8 /* TYPartIModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +192,8 @@
 		8853DDE31E6EE2DF00790A7C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				888A71EF1E6FA1B100310847 /* TYPartIView.h */,
+				888A71F01E6FA1B100310847 /* TYPartIView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,6 +201,8 @@
 		8853DDE41E6EE2DF00790A7C /* ViewManger */ = {
 			isa = PBXGroup;
 			children = (
+				885D71181E701DBF001E68C8 /* TYPartIViewManger.h */,
+				885D71191E701DBF001E68C8 /* TYPartIViewManger.m */,
 			);
 			path = ViewManger;
 			sourceTree = "<group>";
@@ -206,6 +251,53 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		888A71F21E6FAE9400310847 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				888A71F31E6FAE9400310847 /* NSString+TYString.h */,
+				888A71F41E6FAE9400310847 /* NSString+TYString.m */,
+				888A71F51E6FAE9400310847 /* UIColor+TYColor.h */,
+				888A71F61E6FAE9400310847 /* UIColor+TYColor.m */,
+				888A71F71E6FAE9400310847 /* UIImage+TYImage.h */,
+				888A71F81E6FAE9400310847 /* UIImage+TYImage.m */,
+				888A71F91E6FAE9400310847 /* UIView+TYFrame.h */,
+				888A71FA1E6FAE9400310847 /* UIView+TYFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		888A71FF1E6FB6F600310847 /* UICreator */ = {
+			isa = PBXGroup;
+			children = (
+				888A72001E6FB6F600310847 /* TYUICreator.h */,
+				888A72011E6FB6F600310847 /* TYUICreator.m */,
+			);
+			path = UICreator;
+			sourceTree = "<group>";
+		};
+		888A721E1E6FFFC200310847 /* TYMVVMKit */ = {
+			isa = PBXGroup;
+			children = (
+				888A72201E6FFFE100310847 /* TYMVVMKit.h */,
+				888A721F1E6FFFC200310847 /* TYMVVMKit */,
+			);
+			path = TYMVVMKit;
+			sourceTree = "<group>";
+		};
+		888A721F1E6FFFC200310847 /* TYMVVMKit */ = {
+			isa = PBXGroup;
+			children = (
+				888A72241E7001EC00310847 /* TYViewProtocol.h */,
+				888A72281E70159100310847 /* TYViewModelProtocol.h */,
+				885D711B1E701E1D001E68C8 /* TYViewMangerProtocol.h */,
+				888A72211E70002E00310847 /* UIView+TYEvents.h */,
+				888A72221E70002E00310847 /* UIView+TYEvents.m */,
+				888A72251E700E9200310847 /* UIView+TYConfigure.h */,
+				888A72261E700E9200310847 /* UIView+TYConfigure.m */,
+			);
+			path = TYMVVMKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +371,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885D711A1E701DBF001E68C8 /* TYPartIViewManger.m in Sources */,
+				888A71FD1E6FAE9400310847 /* UIImage+TYImage.m in Sources */,
+				888A72021E6FB6F600310847 /* TYUICreator.m in Sources */,
+				888A71F11E6FA1B100310847 /* TYPartIView.m in Sources */,
+				888A71FB1E6FAE9400310847 /* NSString+TYString.m in Sources */,
 				8853DDDC1E6EDF9300790A7C /* AppDelegate.m in Sources */,
+				888A72271E700E9200310847 /* UIView+TYConfigure.m in Sources */,
 				8853DDC01E6EDE2D00790A7C /* main.m in Sources */,
+				888A72231E70002E00310847 /* UIView+TYEvents.m in Sources */,
+				888A71FC1E6FAE9400310847 /* UIColor+TYColor.m in Sources */,
+				885D711E1E703393001E68C8 /* TYPartIModel.m in Sources */,
 				8853DDED1E6EE35D00790A7C /* TYPartIVC.m in Sources */,
+				888A71FE1E6FAE9400310847 /* UIView+TYFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +536,7 @@
 				8853DDD41E6EDE2D00790A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

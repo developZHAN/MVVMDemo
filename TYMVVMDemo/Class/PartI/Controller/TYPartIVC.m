@@ -8,7 +8,11 @@
 
 #import "TYPartIVC.h"
 
+#import "TYPartIView.h"
+
 @interface TYPartIVC ()
+
+
 
 @end
 
@@ -20,6 +24,14 @@
     self.title = @"MVVM Demo";
     self.view.backgroundColor = TYColorWhiteBg;
     
+    //将 partI 的事件处理者代理给 partIViewManger (代理方式)
+    
+    TYPartIView *partIView = [[TYPartIView alloc] initWithFrame:CGRectMake(0, TYHeightNavigationBar, TYWidthDevice, 180)];
+    
+    [self.view addSubview:partIView];
+
+    
+
 }
 
 
