@@ -10,11 +10,14 @@
 #define TYMVVMKit_h
 
 #import "TYViewProtocol.h"
+#import "TYRequestProtocol.h"
 #import "TYViewModelProtocol.h"
 #import "TYViewMangerProtocol.h"
 
 #import "UIView+TYEvents.h"
 #import "UIView+TYConfigure.h"
+#import "NSObject+TYProperties.h"
+#import "NSObject+TYRequest.h"
 
 
 #endif /* TYMVVMKit_h */

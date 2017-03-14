@@ -96,9 +96,9 @@
 - (void)testBtnClick:(UIButton *)sender
 {
     //传递事件
-//    if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(ty_view:withEvents:)]) {
-//        [self.viewDelegate ty_view:self withEvents:@{@"click" : @"btn"}];
-//    }
+    if (self.viewDelegate && [self.viewDelegate respondsToSelector:@selector(ty_view:withEvents:)]) {
+        [self.viewDelegate ty_view:self withEvents:@{@"click" : @"btn"}];
+    }
     
 //    if (self.viewEventsBlock) {
 //        self.viewEventsBlock(@"btnClick");
